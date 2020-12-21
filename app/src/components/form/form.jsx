@@ -40,6 +40,7 @@ export function Form(props) {
                     InputLabelProps={{
                         shrink: true,
                     }}
+                    color="secondary"
                     variant="outlined"
                     onChange={e => setHeight(e.target.value)}
                 />
@@ -50,6 +51,7 @@ export function Form(props) {
                     InputLabelProps={{
                         shrink: true,
                     }}
+                    color="secondary"
                     variant="outlined"
                     onChange={e => setWidth(e.target.value)}
                 />
@@ -60,6 +62,7 @@ export function Form(props) {
                     InputLabelProps={{
                         shrink: true,
                     }}
+                    color="secondary"
                     variant="outlined"
                     onChange={e => setLength(e.target.value)}
                 />
