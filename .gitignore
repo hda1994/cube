@@ -1,0 +1,7 @@
+/.idea
+/app/node_modules
+/app/debug.log
+
+/server/node_modules
+
+
