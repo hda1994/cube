@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import {getCubeArray, postCubeParams} from "../AJAX/AJAX";
+import {getCubeArray, postCubeParams} from "../api/api";
 import {Container} from "@material-ui/core";
 import {Form} from "../form/form";
 import {createCube, createError} from "../cube/cube";
 
 export function Workspace() {
-    const [length, setLength] = useState("1");
+    const [length, setLength] = useState(1);
     const [height, setHeight] = useState(1);
     const [width, setWidth] = useState(1);
     let mount = React.createRef();
