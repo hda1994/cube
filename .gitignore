@@ -1,6 +1,7 @@
 /.idea
 /app/node_modules
 /app/debug.log
+/app/.eslintcache
 
 /server/node_modules
 
